@@ -6,7 +6,9 @@ namespace CSharpPractice
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			FirstMissingPositiveSol test = new FirstMissingPositiveSol ();
+			int[] data = new int[]{1, 2};
+			Console.WriteLine (test.FirstMissingPositive(data));
 		}
 	}
 }
